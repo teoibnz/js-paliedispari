@@ -47,9 +47,14 @@ console.log("il pc ha scelto il numero " + randomNumber());
 
 // Sommiamo i due numeri
 
-const pointSum = userNumber + randomNumber();
+let pointSum = userNumber + randomNumber();
 console.log('la somma è ' + pointSum);
 
-
 // Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
+
+function evenOrOdd (num){
+    num % 2 == 0;
+    return true;
+};
 // Dichiariamo chi ha vinto.
+
